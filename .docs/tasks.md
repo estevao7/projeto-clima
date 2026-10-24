@@ -127,7 +127,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.2, §5.1, §5.3, §5.4
 
-- [ ] Atualizar `index.html` e/ou `main.ts` com a estrutura DOM da aplicação.
+- [x] Atualizar `index.html` e/ou `main.ts` com a estrutura DOM da aplicação.
 
 **Critérios de aprovação:**
 - Área de busca (input + botão) fora e acima do card principal (§5.1).
@@ -142,7 +142,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §5.1, §5.2, §5.8
 
-- [ ] Implementar estilos base em `src/style.css`.
+- [x] Implementar estilos base em `src/style.css`.
 
 **Critérios de aprovação:**
 - Fundo da página em cinza escuro; área de busca sem background próprio (§5.2).
@@ -159,7 +159,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.2, §2.1 (passos 2–3)
 
-- [ ] Conectar input e botão de busca em `main.ts`.
+- [x] Conectar input e botão de busca em `main.ts`.
 
 **Critérios de aprovação:**
 - Placeholder conforme §2.2 (ex.: "Digite o nome da cidade").
@@ -173,7 +173,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.1, §2.3, §4.1
 
-- [ ] Implementar máquina de estados da UI em `main.ts`.
+- [x] Implementar máquina de estados da UI em `main.ts`.
 
 **Critérios de aprovação:**
 - Estado inicial é **empty** (§2.3).
@@ -187,7 +187,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.3, §5.5
 
-- [ ] Implementar visual do estado vazio.
+- [x] Implementar visual do estado vazio.
 
 **Critérios de aprovação:**
 - Exibido no carregamento inicial e após busca sem resultado (§5.5).
@@ -201,7 +201,7 @@ Este documento divide a implementação do PRD em tarefas incrementais. Cada tar
 
 **PRD:** §2.3, §5.6
 
-- [ ] Implementar visual do estado de carregamento.
+- [x] Implementar visual do estado de carregamento.
 
 **Critérios de aprovação:**
 - Indicador de carregamento visível (spinner ou skeleton) durante `searchWeather` (§5.6).
