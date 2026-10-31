@@ -181,7 +181,7 @@ GET https://api.open-meteo.com/v1/forecast
 
 ### 3.4 Camada de serviço (OpenMeteo)
 
-Toda comunicação com a API deve passar por um módulo dedicado (ex: `src/services/openM eteo.ts`). O restante da aplicação **não** faz `fetch` direto aos endpoints.
+Toda comunicação com a API deve passar por um módulo dedicado (ex: `src/services/openMeteo.ts`). O restante da aplicação **não** faz `fetch` direto aos endpoints.
 
 **Responsabilidades do módulo:**
 

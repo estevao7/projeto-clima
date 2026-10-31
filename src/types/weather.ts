@@ -47,12 +47,4 @@ export type WeatherResult = {
 }
 
 /** Dados combinados de geocoding + forecast para a UI. */
-export type CombinedWeatherData = {
-  name: string
-  country_code: string
-  timezone: string
-  latitude: number
-  longitude: number
-  current: WeatherCurrent
-  current_units: WeatherCurrentUnits
-}
+export type CombinedWeatherData = GeocodingResult & WeatherResult
